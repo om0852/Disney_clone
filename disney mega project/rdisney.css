@@ -1,0 +1,128 @@
+@media(max-width:900px){
+    *{
+        transition-delay: 10s;
+    }
+    .main-header,.header{
+        height: 6vh;
+    }
+    .sidebar-icon{
+        width: 3vh;
+        height: 2vh;
+        left: 0;
+        margin-right: 0;
+    }
+    .header-links{
+        display: none;
+    }
+    .logo{
+        width: 6vh;
+        height: 3vh;
+        position: relative;
+        top: 2vh;
+    }
+    .left-header{
+        position: relative;
+        left: 2vh;
+        top: 2vh;
+        width: 15vh;
+    }
+    .right-header{
+        height: 7vh;
+        position: relative;
+        top: 1.4vh;
+        text-align: left;
+    }
+    .search{
+        display: none;
+    }
+    .subcription{
+        width: 8vh;
+        height: 2vh;
+        margin: 1.3vh;
+        padding: 0;
+    }
+    .login{
+        display: none;
+    }
+    .sidebar-icon-container{
+        width: 20vh;
+        transform: translateX(-100vh);
+        height: 70vh;
+        /* transition: all 0.3s; */
+        /* transition-delay: 1s; */
+        position: absolute;
+        top: 7vh;
+        transition-property:transform;
+        transition-duration: 1s;
+    }
+    .sidebar-icon-container-overflow{
+        transition-property:transform;
+        transition-duration: 1s;
+        /* transition-delay: 1s; */
+        transform: translateX(-5vh);
+    }
+    .container{
+        margin-top: -1vh;
+        position: inherit;
+    }
+    .slider{
+        width: 100%;
+        height: 30vh;
+    
+    }
+    .sliderimg{
+        width: 100%;
+        height: 30vh;
+        animation: imgs infinite 3s ease;
+        /* transform: translateX(0); */
+    }
+    .sliderimg img{
+        width: 100vh;
+        height: 30vh;
+    }
+    .img-info{
+        width: 40vh;
+        /* position: absolute; */
+        
+    }
+    .img-info-container{
+        width: 20vh;
+        position: relative;
+        /* left: -4vh; */
+    }
+    .sidearrow {
+        position: absolute;
+        left: 10vh;
+        top: 50%;
+        width: 6vh;
+        height: 3vh;
+    }
+    .left{
+        left: 2vh;
+    }
+    .right{
+        left: 90%;
+    }
+@keyframes imgs {
+    0%
+    {
+        transform: translateX(10vh);
+    }
+    40%{
+        transform: translateX(-50vh);
+    }
+    80%{
+        transform: translateX(-130vh);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+}
